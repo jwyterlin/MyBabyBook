@@ -60,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B556E621BB0F5F800BB0558 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B63991C1BA7A80D0029BC6C /* ViewController.h */,
+				7B63991D1BA7A80D0029BC6C /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		7B6399091BA7A80D0029BC6C = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +90,9 @@
 		7B6399141BA7A80D0029BC6C /* MyBabyBook */ = {
 			isa = PBXGroup;
 			children = (
+				7B556E621BB0F5F800BB0558 /* Controller */,
 				7B6399191BA7A80D0029BC6C /* AppDelegate.h */,
 				7B63991A1BA7A80D0029BC6C /* AppDelegate.m */,
-				7B63991C1BA7A80D0029BC6C /* ViewController.h */,
-				7B63991D1BA7A80D0029BC6C /* ViewController.m */,
 				7B63991F1BA7A80D0029BC6C /* Main.storyboard */,
 				7B6399221BA7A80D0029BC6C /* Images.xcassets */,
 				7B6399241BA7A80D0029BC6C /* LaunchScreen.xib */,
@@ -418,6 +426,7 @@
 				7B6399371BA7A80D0029BC6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B6399381BA7A80D0029BC6C /* Build configuration list for PBXNativeTarget "MyBabyBookTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +435,7 @@
 				7B63993A1BA7A80D0029BC6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
