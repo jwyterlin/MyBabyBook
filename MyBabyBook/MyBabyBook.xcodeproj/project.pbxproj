@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B06B1511BE6EEBE00C88738 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B06B1501BE6EEBE00C88738 /* AppDelegate.m */; };
+		7B06B1541BE6EECE00C88738 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B06B1531BE6EECE00C88738 /* ViewController.m */; };
 		7B6399181BA7A80D0029BC6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6399171BA7A80D0029BC6C /* main.m */; };
-		7B63991B1BA7A80D0029BC6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B63991A1BA7A80D0029BC6C /* AppDelegate.m */; };
-		7B63991E1BA7A80D0029BC6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B63991D1BA7A80D0029BC6C /* ViewController.m */; };
 		7B6399211BA7A80D0029BC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B63991F1BA7A80D0029BC6C /* Main.storyboard */; };
 		7B6399231BA7A80D0029BC6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6399221BA7A80D0029BC6C /* Images.xcassets */; };
 		7B6399261BA7A80D0029BC6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B6399241BA7A80D0029BC6C /* LaunchScreen.xib */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B06B14F1BE6EEBE00C88738 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		7B06B1501BE6EEBE00C88738 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
+		7B06B1521BE6EECE00C88738 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		7B06B1531BE6EECE00C88738 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
 		7B6399121BA7A80D0029BC6C /* MyBabyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBabyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6399161BA7A80D0029BC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B6399171BA7A80D0029BC6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7B6399191BA7A80D0029BC6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7B63991A1BA7A80D0029BC6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7B63991C1BA7A80D0029BC6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7B63991D1BA7A80D0029BC6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7B6399201BA7A80D0029BC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B6399221BA7A80D0029BC6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B6399251BA7A80D0029BC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,11 +60,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B06B14B1BE6EE4F00C88738 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7B63991F1BA7A80D0029BC6C /* Main.storyboard */,
+				7B6399241BA7A80D0029BC6C /* LaunchScreen.xib */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7B06B14C1BE6EE5E00C88738 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B06B14B1BE6EE4F00C88738 /* Storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7B06B14D1BE6EE6900C88738 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7B06B14F1BE6EEBE00C88738 /* AppDelegate.h */,
+				7B06B1501BE6EEBE00C88738 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7B06B14E1BE6EE8700C88738 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7B6399221BA7A80D0029BC6C /* Images.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		7B556E621BB0F5F800BB0558 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7B63991C1BA7A80D0029BC6C /* ViewController.h */,
-				7B63991D1BA7A80D0029BC6C /* ViewController.m */,
+				7B06B1521BE6EECE00C88738 /* ViewController.h */,
+				7B06B1531BE6EECE00C88738 /* ViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -90,13 +124,11 @@
 		7B6399141BA7A80D0029BC6C /* MyBabyBook */ = {
 			isa = PBXGroup;
 			children = (
+				7B06B14D1BE6EE6900C88738 /* AppDelegate */,
+				7B06B14E1BE6EE8700C88738 /* Assets */,
 				7B556E621BB0F5F800BB0558 /* Controller */,
-				7B6399191BA7A80D0029BC6C /* AppDelegate.h */,
-				7B63991A1BA7A80D0029BC6C /* AppDelegate.m */,
-				7B63991F1BA7A80D0029BC6C /* Main.storyboard */,
-				7B6399221BA7A80D0029BC6C /* Images.xcassets */,
-				7B6399241BA7A80D0029BC6C /* LaunchScreen.xib */,
 				7B6399151BA7A80D0029BC6C /* Supporting Files */,
+				7B06B14C1BE6EE5E00C88738 /* View */,
 			);
 			path = MyBabyBook;
 			sourceTree = "<group>";
@@ -227,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B63991E1BA7A80D0029BC6C /* ViewController.m in Sources */,
-				7B63991B1BA7A80D0029BC6C /* AppDelegate.m in Sources */,
+				7B06B1511BE6EEBE00C88738 /* AppDelegate.m in Sources */,
+				7B06B1541BE6EECE00C88738 /* ViewController.m in Sources */,
 				7B6399181BA7A80D0029BC6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
